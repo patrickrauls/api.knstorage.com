@@ -12,7 +12,7 @@ app.set('port', port);
 var server = https.createServer({
     cert: fs.readFileSync(process.env.CERT),
     key: fs.readFileSync(process.env.KEY)
-}}, app)
+}, app)
 
 server.listen(port);
 server.on('error', onError);

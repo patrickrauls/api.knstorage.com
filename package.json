@@ -1,0 +1,22 @@
+{
+  "name": "api.knstorage.com",
+  "version": "1.0.0",
+  "description": "back end for k&n storage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickrauls/api.knstorage.com.git"
+  },
+  "author": "Patrick Rauls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickrauls/api.knstorage.com/issues"
+  },
+  "homepage": "https://github.com/patrickrauls/api.knstorage.com#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1"
+  }
+}

@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/patrickrauls/api.knstorage.com#readme",
   "dependencies": {
-    "body-parser": "^1.17.1"
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

@@ -1,7 +1,6 @@
-const router = express.Router();
-
+const router = require('express').Router();
 router.get('/', (req, res) => {
-    res.send('you have reached the knstorage api')
+    res.status(200).json({ message: 'welcome to the ruumy API'})
 })
 
 module.exports = router;
